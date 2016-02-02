@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <title>Akte BER</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap -->
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"> 
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+<body>
+<p><meta http-equiv='Content-Type' content='text/html; charset=utf-8'/></p>
+
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Bootstrap Search</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="./index_ber.html">Home</a></li>
+      <li><a href="./suche.html">Erkundung</a></li>
+      <li class="active"><a href="./erkundung.html">Themen-Erkennung</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+<div class="row">
+
+<div class="col-xs-6 col-xs-offset-3">
+
+<h1 id="akte-ber-eine-entdeckungsfahrt">Automatische Themen-Erkennung</h1>
+
+<br> <br> <br> <br>
+
+
+<img src="hypertext_bare_nn10_norm.jpg" class="img-responsive" alt="TSNE">
+
+<br> <br> <br> <br>
+
+<p>In obiger Abbildung ist jedes Wort, das mindestens zehn mal in "Akte
+  BER" erwähnt wurde, durch einen Punkt dargestellt.  Wörter, die in
+  einem ähnlichen Kontext benutzt werden, wie z.B. <em>klaus</em>
+  und <em>wowereit</em>, werden durch den verwendeten, hoch
+  skalierbaren Visualisierungs&shy;algorithmus dicht beieinander abgebildet.
+  Es entstehen so Cluster von Wörtern, die kohärente Themen bilden.  Mit
+  Hilfe modernster Nachbarschaftserkennungs-Technologie sind die Cluster
+  automatisch identifiziert und farblich gekennzeichnet worden.
+</p>
+
+<p>
+  Die interaktive Version dieser Abbildung zeigt das entsprechende Wort
+  an, wenn man mit der Maus über einen Punkt fährt.  Somit ist im
+  Allgemeinen leicht das Thema der einzelnen Cluster zu erkennen,
+  z.B.:
+</p>
+
+
+<table class="table table-condensed">
+  <thead>
+    <tr>
+      <th>Funktionswörter</th>
+      <th>"das Monster"</th>
+      <th>Politik</th>
+      <th>Streitigkeiten</th>
+      <th>Manager</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>.</td>
+      <td>terminal</td>
+      <td>wowereit</td>
+      <td>anwohner</td>
+      <td>mehdorn</td>
+    </tr>
+    <tr>
+      <td>,</td>
+      <td>geplant</td>
+      <td>ministerpräsident</td>
+      <td>schallschutz</td>
+      <td>flughafenchef</td>
+    </tr>
+    <tr>
+      <td>die</td>
+      <td>brandschutzanlage</td>
+      <td>sitzung</td>
+      <td>gericht</td>
+      <td>architekten</td>
+    </tr>
+    <tr>
+      <td>und</td>
+      <td>genehmigt</td>
+      <td>opposition</td>
+      <td>genehmigung</td>
+      <td>chaos</td>
+    </tr>
+    <tr>
+      <td>in</td>
+      <td>technik</td>
+      <td>kritisch</td>
+      <td>kampf</td>
+      <td>kündigung</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>
+Die von Hand ausgewählten Wörter sind innerhalb eines Themas nach
+Häufigkeit von oben nach unten in der Tabelle angeordnet.
+</p>
+
+
+</div>
+</div>
+
+</body>
+</html>
