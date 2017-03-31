@@ -3664,19 +3664,19 @@ footer .newsletter .btn-submit {
 .dark-bg button,
 .dark-bg select,
 .dark-bg textarea {
-    color: #A3B1BF;
+    color: #AEB3B7;  /* was: #C2C7CC; increasing darker shades: #AEB3B7 #9B9FA3 #878B8E #74777A  */
 }
 .form-control::-webkit-input-placeholder {
-    color: #C2C7CC;
+    color: #AEB3B7;
 }
 .form-control:-moz-placeholder {
-    color: #C2C7CC;
+    color: #AEB3B7;
 }
 .form-control::-moz-placeholder {
-    color: #C2C7CC;
+    color: #AEB3B7;
 }
 .form-control:-ms-input-placeholder {
-    color: #C2C7CC;
+    color: #AEB3B7;
 }
 .dark-bg .form-control::-webkit-input-placeholder {
     color: #828E99;
