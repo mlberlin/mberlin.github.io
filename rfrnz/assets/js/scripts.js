@@ -771,14 +771,14 @@ $(document).ready(function () {
 	function initialize() {
 		var mapOptions = {
 			zoom: 13,
-			center: new google.maps.LatLng(48.155055, 11.585909),
+		    center: new google.maps.LatLng(48.158824, 11.550577),
 		        disableDefaultUI: true,
 			scrollwheel: true
 		}
 		var map = new google.maps.Map(document.getElementById('map'), mapOptions);
 
                 var marker = new google.maps.Marker({
-		   position: new google.maps.LatLng(48.155055, 11.585909),
+		   position: new google.maps.LatLng(48.158824, 11.550577),
 		   title:"rfrnz"
 	       });
 
