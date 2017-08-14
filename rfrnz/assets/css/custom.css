@@ -1,0 +1,25 @@
+
+
+/*===================================================================================*/
+/*	CUSTOM CSS STYLES
+/*===================================================================================*/
+
+/* Insert your own styles in here! */
+
+a:link {
+    /* this works:    color: yellow; */
+    /* text-decoration: none;   this is not working */
+}
+
+a:visited {
+    /* text-decoration: none; */
+}
+
+a:hover {
+    /* text-decoration: none; */
+}
+
+a:active {
+/* this is working:    background-color: hotpink; */
+    /* text-decoration: none; */
+}
